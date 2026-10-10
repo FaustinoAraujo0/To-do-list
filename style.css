@@ -4,35 +4,59 @@
 }
 
 body {
-    background-color: rgb(24, 21, 21);
+    background-color: #dcdcdc;
     margin: 10px;
-    width: 98vw;
-    height: 100vh;
+    
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+h1 {
+    text-align: center;
 }
 
 #lista {
-   background-color: rgb(223, 212, 212);
-   width: 400px;
+   display: flex;
+   flex-direction: column;
+   width: 1000px;
    padding: 10px; 
    margin: auto;
 }
 
 #text {
-    width: 80%;
+    width: 90%;
     margin:10px;
     padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
 p {
     margin: 10px;
     margin-bottom:15px;
 }
 
+#camp {
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    
+}
+
 #add {
     border: none;
-    border-radius: 50%;
+    font-size: 19px;
+    text-align: center;
+    padding: 5px;
 
+    border-radius: 50%;
     aspect-ratio: 1/1;
+    width: 33px;
     margin: 10px;
+    background-color: #5f31dd;
+    color: white;
     
 }
     
@@ -40,5 +64,57 @@ p {
 #add:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+.divlista{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    background-color: #bdbdbd;
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 9px;
+    width: 100%;
+
+    
+}
+
+.checkt {
+    margin-right: 50px;
+}
+
+[type="checkbox"] {
+    accent-color: green;
+}
+
+
+
+.apagart {
+    margin-left: auto;
+    border: none;
+    padding: 5px;
+    background-color: #bdbdbd;
+
+    transition: background-color 0.3s;
+}
+
+.apagart:hover {
+    background-color: #918b8b;
+    cursor: pointer;
+}
+
+#esp {
+    margin-left: auto;
+    background-color: #dcdcdc;
+    border: none;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+#esp:hover {
+    background-color: #918b8b;
     cursor: pointer;
 }

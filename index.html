@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tarefas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2c490adb6b.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <div id="lista">
+        <h1>To Do List</h1>
+        <button id="esp" onclick="cleanall()"><i class="fa-regular fa-trash-can"></i></button>
+        
+    <hr>
         <div id="camp">
             <input type="text" name="camp" id="text" placeholder="Digite uma tarefa" maxlength="100">
             <button onclick="adicionar()" id="add">+</button>
